@@ -1,12 +1,8 @@
-
-
 T=15;                  
 T0= 3 ;                
 rez1 = 0.2;            
 rez2 = 0.02;           
 rez3 = 0.002;          
-
- 
 
 
 N1= round(T/rez1);     
@@ -31,9 +27,6 @@ subplot(3,1,1),plot(t1,SemnalMonoalternant1),grid, ylim([-1 1]),xlabel('Timp (se
 
 
 
-
-
-
 N2= round(T/rez2);  
 t2=rez2*(0:N2-1);   
                  
@@ -50,10 +43,6 @@ for i = 1:1:length(SemnalMonoalternant2)
 end  
 
 subplot(3,1,2),plot(t2,SemnalMonoalternant2),grid, ylim([-1 1]),xlabel('Timp (sec)<rezolutie rez2>') ,ylabel('Amplitude')
-
-
-
-
 
 
 
