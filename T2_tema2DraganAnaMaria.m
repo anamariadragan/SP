@@ -1,12 +1,12 @@
 %Numar de ordine: 22
 %Semnal triunghiular
 %Perioada P = 40 s
-%Durata semnalelor D = 22
+%Durata semnalelor D = 8
 %Rezolutie temporara adecvata
 %Numar de coeficienti = 50
 
 P = 40; 
-D = 22; 
+D = 8; 
 N = 50;
 w0 = 2*pi/P; %pulsatia unghiulara a semnalului
 t_tr = 0:0.02:D; %esantionarea semnalului original
